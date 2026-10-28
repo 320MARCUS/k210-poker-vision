@@ -1,0 +1,33 @@
+.venv/
+.tools/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tmp/
+dist/
+
+# Local datasets and model-development artifacts are never published.
+artifacts/data/
+artifacts/*.pth
+artifacts/*.pt
+artifacts/*.onnx
+artifacts/*.kmodel
+artifacts/*.log
+artifacts/audit/*.jpg
+artifacts/audit/*.csv
+release/
+
+# Generated evaluation outputs; publish a reviewed subset explicitly.
+results/runs/
+
+# Firmware, drivers and upstream snapshots are distributed from their sources.
+*.bin
+*.weights
+vendor/
+data/*.zip
+
+# User-recorded raw proof media stays private until reviewed.
+docs/images/raw/

@@ -1,0 +1,629 @@
+{
+  "dataset": {
+    "name": "poker cards",
+    "url": "https://universe.roboflow.com/object-detection/poker-cards-cxcvz",
+    "license": "CC BY 4.0",
+    "split": "test"
+  },
+  "checkpoint": "best.pth",
+  "checkpoint_sha256": "d2fe485940c66928874e2d937a863814b4d12314531f6df32a378d7fd72e2ec1",
+  "checkpoint_epoch": 93,
+  "model_input_size": 320,
+  "num_classes": 52,
+  "threshold": 0.25,
+  "identity_threshold": 0.2,
+  "nms_iou": 0.45,
+  "runtime": {
+    "python": "3.12.15 (main, Oct  3 2026, 01:05:37) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26100-SP0",
+    "torch": "2.14.0+cu126",
+    "cuda_available": true,
+    "cuda_version": "12.6",
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU"
+  },
+  "desktop_benchmark": {
+    "device": "cuda",
+    "warmup": 10,
+    "iterations": 50,
+    "latency_ms": 0.7983759999842732,
+    "fps": 1252.5426616277273
+  },
+  "metrics": {
+    "mAP50": 0.874965474744027,
+    "mAP50_95": 0.5413665431173313,
+    "precision": 0.8041237113402062,
+    "recall": 0.8432432432432433,
+    "identity_accuracy": 0.8571428571428571,
+    "matched_identity_boxes": 518,
+    "identity_coverage": 0.9333333333333333,
+    "ground_truth_boxes": 555,
+    "report_threshold": 0.25,
+    "per_class": [
+      {
+        "class_id": 0,
+        "ap50": 0.9909990999099907,
+        "ground_truth": 10,
+        "code": "2D"
+      },
+      {
+        "class_id": 1,
+        "ap50": 0.9847677075399841,
+        "ground_truth": 11,
+        "code": "2H"
+      },
+      {
+        "class_id": 2,
+        "ap50": 0.772277227722773,
+        "ground_truth": 10,
+        "code": "2S"
+      },
+      {
+        "class_id": 3,
+        "ap50": 0.700514694326575,
+        "ground_truth": 12,
+        "code": "2C"
+      },
+      {
+        "class_id": 4,
+        "ap50": 1.0,
+        "ground_truth": 10,
+        "code": "3D"
+      },
+      {
+        "class_id": 5,
+        "ap50": 1.0,
+        "ground_truth": 11,
+        "code": "3H"
+      },
+      {
+        "class_id": 6,
+        "ap50": 0.8514851485148515,
+        "ground_truth": 10,
+        "code": "3S"
+      },
+      {
+        "class_id": 7,
+        "ap50": 0.759272355807008,
+        "ground_truth": 12,
+        "code": "3C"
+      },
+      {
+        "class_id": 8,
+        "ap50": 0.8641364136413638,
+        "ground_truth": 10,
+        "code": "4D"
+      },
+      {
+        "class_id": 9,
+        "ap50": 0.9787835926449794,
+        "ground_truth": 11,
+        "code": "4H"
+      },
+      {
+        "class_id": 10,
+        "ap50": 0.8542354235423536,
+        "ground_truth": 10,
+        "code": "4S"
+      },
+      {
+        "class_id": 11,
+        "ap50": 0.9108910891089109,
+        "ground_truth": 12,
+        "code": "4C"
+      },
+      {
+        "class_id": 12,
+        "ap50": 0.956359482102058,
+        "ground_truth": 10,
+        "code": "5D"
+      },
+      {
+        "class_id": 13,
+        "ap50": 0.9263010916476276,
+        "ground_truth": 11,
+        "code": "5H"
+      },
+      {
+        "class_id": 14,
+        "ap50": 0.9139348717480439,
+        "ground_truth": 10,
+        "code": "5S"
+      },
+      {
+        "class_id": 15,
+        "ap50": 0.6348306235305808,
+        "ground_truth": 11,
+        "code": "5C"
+      },
+      {
+        "class_id": 16,
+        "ap50": 0.7929792979297927,
+        "ground_truth": 10,
+        "code": "6D"
+      },
+      {
+        "class_id": 17,
+        "ap50": 0.854323893927854,
+        "ground_truth": 11,
+        "code": "6H"
+      },
+      {
+        "class_id": 18,
+        "ap50": 0.8272952295229512,
+        "ground_truth": 10,
+        "code": "6S"
+      },
+      {
+        "class_id": 19,
+        "ap50": 0.7015205091937764,
+        "ground_truth": 11,
+        "code": "6C"
+      },
+      {
+        "class_id": 20,
+        "ap50": 0.8868458274398847,
+        "ground_truth": 10,
+        "code": "7D"
+      },
+      {
+        "class_id": 21,
+        "ap50": 0.8577086280056582,
+        "ground_truth": 11,
+        "code": "7H"
+      },
+      {
+        "class_id": 22,
+        "ap50": 0.8641364136413638,
+        "ground_truth": 10,
+        "code": "7S"
+      },
+      {
+        "class_id": 23,
+        "ap50": 0.8334512022630823,
+        "ground_truth": 11,
+        "code": "7C"
+      },
+      {
+        "class_id": 24,
+        "ap50": 0.693069306930693,
+        "ground_truth": 10,
+        "code": "8D"
+      },
+      {
+        "class_id": 25,
+        "ap50": 0.9847677075399841,
+        "ground_truth": 11,
+        "code": "8H"
+      },
+      {
+        "class_id": 26,
+        "ap50": 0.9819981998199815,
+        "ground_truth": 10,
+        "code": "8S"
+      },
+      {
+        "class_id": 27,
+        "ap50": 0.8550855085508551,
+        "ground_truth": 11,
+        "code": "8C"
+      },
+      {
+        "class_id": 28,
+        "ap50": 0.764947923363764,
+        "ground_truth": 10,
+        "code": "9D"
+      },
+      {
+        "class_id": 29,
+        "ap50": 0.900990099009901,
+        "ground_truth": 11,
+        "code": "9H"
+      },
+      {
+        "class_id": 30,
+        "ap50": 0.9042904290429044,
+        "ground_truth": 10,
+        "code": "9S"
+      },
+      {
+        "class_id": 31,
+        "ap50": 0.6451849031056958,
+        "ground_truth": 12,
+        "code": "9C"
+      },
+      {
+        "class_id": 32,
+        "ap50": 0.820960958972152,
+        "ground_truth": 10,
+        "code": "10D"
+      },
+      {
+        "class_id": 33,
+        "ap50": 0.9847677075399841,
+        "ground_truth": 11,
+        "code": "10H"
+      },
+      {
+        "class_id": 34,
+        "ap50": 0.8554337576614822,
+        "ground_truth": 10,
+        "code": "10S"
+      },
+      {
+        "class_id": 35,
+        "ap50": 0.823326881560336,
+        "ground_truth": 12,
+        "code": "10C"
+      },
+      {
+        "class_id": 36,
+        "ap50": 0.801980198019802,
+        "ground_truth": 10,
+        "code": "JD"
+      },
+      {
+        "class_id": 37,
+        "ap50": 0.9847677075399841,
+        "ground_truth": 11,
+        "code": "JH"
+      },
+      {
+        "class_id": 38,
+        "ap50": 0.8705255140898707,
+        "ground_truth": 10,
+        "code": "JS"
+      },
+      {
+        "class_id": 39,
+        "ap50": 0.9711221122112215,
+        "ground_truth": 12,
+        "code": "JC"
+      },
+      {
+        "class_id": 40,
+        "ap50": 0.8514851485148502,
+        "ground_truth": 10,
+        "code": "QD"
+      },
+      {
+        "class_id": 41,
+        "ap50": 0.885973597359736,
+        "ground_truth": 11,
+        "code": "QH"
+      },
+      {
+        "class_id": 42,
+        "ap50": 0.9509193776520515,
+        "ground_truth": 10,
+        "code": "QS"
+      },
+      {
+        "class_id": 43,
+        "ap50": 0.9108910891089109,
+        "ground_truth": 12,
+        "code": "QC"
+      },
+      {
+        "class_id": 44,
+        "ap50": 0.8816124469589813,
+        "ground_truth": 10,
+        "code": "KD"
+      },
+      {
+        "class_id": 45,
+        "ap50": 0.8457802923149446,
+        "ground_truth": 11,
+        "code": "KH"
+      },
+      {
+        "class_id": 46,
+        "ap50": 0.9771515613099776,
+        "ground_truth": 10,
+        "code": "KS"
+      },
+      {
+        "class_id": 47,
+        "ap50": 0.9806694955209814,
+        "ground_truth": 12,
+        "code": "KC"
+      },
+      {
+        "class_id": 48,
+        "ap50": 0.8488796248045857,
+        "ground_truth": 10,
+        "code": "AD"
+      },
+      {
+        "class_id": 49,
+        "ap50": 0.900990099009901,
+        "ground_truth": 11,
+        "code": "AH"
+      },
+      {
+        "class_id": 50,
+        "ap50": 1.0,
+        "ground_truth": 10,
+        "code": "AS"
+      },
+      {
+        "class_id": 51,
+        "ap50": 0.9035832154644031,
+        "ground_truth": 12,
+        "code": "AC"
+      }
+    ]
+  },
+  "identity_operating_point": {
+    "mAP50": 0.874965474744027,
+    "mAP50_95": 0.5413665431173313,
+    "precision": 0.7745098039215687,
+    "recall": 0.8540540540540541,
+    "identity_accuracy": 0.8419047619047619,
+    "matched_identity_boxes": 525,
+    "identity_coverage": 0.9459459459459459,
+    "ground_truth_boxes": 555,
+    "report_threshold": 0.2,
+    "per_class": [
+      {
+        "class_id": 0,
+        "ap50": 0.9909990999099907,
+        "ground_truth": 10
+      },
+      {
+        "class_id": 1,
+        "ap50": 0.9847677075399841,
+        "ground_truth": 11
+      },
+      {
+        "class_id": 2,
+        "ap50": 0.772277227722773,
+        "ground_truth": 10
+      },
+      {
+        "class_id": 3,
+        "ap50": 0.700514694326575,
+        "ground_truth": 12
+      },
+      {
+        "class_id": 4,
+        "ap50": 1.0,
+        "ground_truth": 10
+      },
+      {
+        "class_id": 5,
+        "ap50": 1.0,
+        "ground_truth": 11
+      },
+      {
+        "class_id": 6,
+        "ap50": 0.8514851485148515,
+        "ground_truth": 10
+      },
+      {
+        "class_id": 7,
+        "ap50": 0.759272355807008,
+        "ground_truth": 12
+      },
+      {
+        "class_id": 8,
+        "ap50": 0.8641364136413638,
+        "ground_truth": 10
+      },
+      {
+        "class_id": 9,
+        "ap50": 0.9787835926449794,
+        "ground_truth": 11
+      },
+      {
+        "class_id": 10,
+        "ap50": 0.8542354235423536,
+        "ground_truth": 10
+      },
+      {
+        "class_id": 11,
+        "ap50": 0.9108910891089109,
+        "ground_truth": 12
+      },
+      {
+        "class_id": 12,
+        "ap50": 0.956359482102058,
+        "ground_truth": 10
+      },
+      {
+        "class_id": 13,
+        "ap50": 0.9263010916476276,
+        "ground_truth": 11
+      },
+      {
+        "class_id": 14,
+        "ap50": 0.9139348717480439,
+        "ground_truth": 10
+      },
+      {
+        "class_id": 15,
+        "ap50": 0.6348306235305808,
+        "ground_truth": 11
+      },
+      {
+        "class_id": 16,
+        "ap50": 0.7929792979297927,
+        "ground_truth": 10
+      },
+      {
+        "class_id": 17,
+        "ap50": 0.854323893927854,
+        "ground_truth": 11
+      },
+      {
+        "class_id": 18,
+        "ap50": 0.8272952295229512,
+        "ground_truth": 10
+      },
+      {
+        "class_id": 19,
+        "ap50": 0.7015205091937764,
+        "ground_truth": 11
+      },
+      {
+        "class_id": 20,
+        "ap50": 0.8868458274398847,
+        "ground_truth": 10
+      },
+      {
+        "class_id": 21,
+        "ap50": 0.8577086280056582,
+        "ground_truth": 11
+      },
+      {
+        "class_id": 22,
+        "ap50": 0.8641364136413638,
+        "ground_truth": 10
+      },
+      {
+        "class_id": 23,
+        "ap50": 0.8334512022630823,
+        "ground_truth": 11
+      },
+      {
+        "class_id": 24,
+        "ap50": 0.693069306930693,
+        "ground_truth": 10
+      },
+      {
+        "class_id": 25,
+        "ap50": 0.9847677075399841,
+        "ground_truth": 11
+      },
+      {
+        "class_id": 26,
+        "ap50": 0.9819981998199815,
+        "ground_truth": 10
+      },
+      {
+        "class_id": 27,
+        "ap50": 0.8550855085508551,
+        "ground_truth": 11
+      },
+      {
+        "class_id": 28,
+        "ap50": 0.764947923363764,
+        "ground_truth": 10
+      },
+      {
+        "class_id": 29,
+        "ap50": 0.900990099009901,
+        "ground_truth": 11
+      },
+      {
+        "class_id": 30,
+        "ap50": 0.9042904290429044,
+        "ground_truth": 10
+      },
+      {
+        "class_id": 31,
+        "ap50": 0.6451849031056958,
+        "ground_truth": 12
+      },
+      {
+        "class_id": 32,
+        "ap50": 0.820960958972152,
+        "ground_truth": 10
+      },
+      {
+        "class_id": 33,
+        "ap50": 0.9847677075399841,
+        "ground_truth": 11
+      },
+      {
+        "class_id": 34,
+        "ap50": 0.8554337576614822,
+        "ground_truth": 10
+      },
+      {
+        "class_id": 35,
+        "ap50": 0.823326881560336,
+        "ground_truth": 12
+      },
+      {
+        "class_id": 36,
+        "ap50": 0.801980198019802,
+        "ground_truth": 10
+      },
+      {
+        "class_id": 37,
+        "ap50": 0.9847677075399841,
+        "ground_truth": 11
+      },
+      {
+        "class_id": 38,
+        "ap50": 0.8705255140898707,
+        "ground_truth": 10
+      },
+      {
+        "class_id": 39,
+        "ap50": 0.9711221122112215,
+        "ground_truth": 12
+      },
+      {
+        "class_id": 40,
+        "ap50": 0.8514851485148502,
+        "ground_truth": 10
+      },
+      {
+        "class_id": 41,
+        "ap50": 0.885973597359736,
+        "ground_truth": 11
+      },
+      {
+        "class_id": 42,
+        "ap50": 0.9509193776520515,
+        "ground_truth": 10
+      },
+      {
+        "class_id": 43,
+        "ap50": 0.9108910891089109,
+        "ground_truth": 12
+      },
+      {
+        "class_id": 44,
+        "ap50": 0.8816124469589813,
+        "ground_truth": 10
+      },
+      {
+        "class_id": 45,
+        "ap50": 0.8457802923149446,
+        "ground_truth": 11
+      },
+      {
+        "class_id": 46,
+        "ap50": 0.9771515613099776,
+        "ground_truth": 10
+      },
+      {
+        "class_id": 47,
+        "ap50": 0.9806694955209814,
+        "ground_truth": 12
+      },
+      {
+        "class_id": 48,
+        "ap50": 0.8488796248045857,
+        "ground_truth": 10
+      },
+      {
+        "class_id": 49,
+        "ap50": 0.900990099009901,
+        "ground_truth": 11
+      },
+      {
+        "class_id": 50,
+        "ap50": 1.0,
+        "ground_truth": 10
+      },
+      {
+        "class_id": 51,
+        "ap50": 0.9035832154644031,
+        "ground_truth": 12
+      }
+    ]
+  }
+}

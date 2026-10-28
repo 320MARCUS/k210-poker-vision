@@ -1,0 +1,433 @@
+{
+  "version": 1,
+  "classes": [
+    {
+      "id": 0,
+      "code": "2D",
+      "display": "♦2",
+      "rank": "2",
+      "suit": "diamonds"
+    },
+    {
+      "id": 1,
+      "code": "2H",
+      "display": "♥2",
+      "rank": "2",
+      "suit": "hearts"
+    },
+    {
+      "id": 2,
+      "code": "2S",
+      "display": "♠2",
+      "rank": "2",
+      "suit": "spades"
+    },
+    {
+      "id": 3,
+      "code": "2C",
+      "display": "♣2",
+      "rank": "2",
+      "suit": "clubs"
+    },
+    {
+      "id": 4,
+      "code": "3D",
+      "display": "♦3",
+      "rank": "3",
+      "suit": "diamonds"
+    },
+    {
+      "id": 5,
+      "code": "3H",
+      "display": "♥3",
+      "rank": "3",
+      "suit": "hearts"
+    },
+    {
+      "id": 6,
+      "code": "3S",
+      "display": "♠3",
+      "rank": "3",
+      "suit": "spades"
+    },
+    {
+      "id": 7,
+      "code": "3C",
+      "display": "♣3",
+      "rank": "3",
+      "suit": "clubs"
+    },
+    {
+      "id": 8,
+      "code": "4D",
+      "display": "♦4",
+      "rank": "4",
+      "suit": "diamonds"
+    },
+    {
+      "id": 9,
+      "code": "4H",
+      "display": "♥4",
+      "rank": "4",
+      "suit": "hearts"
+    },
+    {
+      "id": 10,
+      "code": "4S",
+      "display": "♠4",
+      "rank": "4",
+      "suit": "spades"
+    },
+    {
+      "id": 11,
+      "code": "4C",
+      "display": "♣4",
+      "rank": "4",
+      "suit": "clubs"
+    },
+    {
+      "id": 12,
+      "code": "5D",
+      "display": "♦5",
+      "rank": "5",
+      "suit": "diamonds"
+    },
+    {
+      "id": 13,
+      "code": "5H",
+      "display": "♥5",
+      "rank": "5",
+      "suit": "hearts"
+    },
+    {
+      "id": 14,
+      "code": "5S",
+      "display": "♠5",
+      "rank": "5",
+      "suit": "spades"
+    },
+    {
+      "id": 15,
+      "code": "5C",
+      "display": "♣5",
+      "rank": "5",
+      "suit": "clubs"
+    },
+    {
+      "id": 16,
+      "code": "6D",
+      "display": "♦6",
+      "rank": "6",
+      "suit": "diamonds"
+    },
+    {
+      "id": 17,
+      "code": "6H",
+      "display": "♥6",
+      "rank": "6",
+      "suit": "hearts"
+    },
+    {
+      "id": 18,
+      "code": "6S",
+      "display": "♠6",
+      "rank": "6",
+      "suit": "spades"
+    },
+    {
+      "id": 19,
+      "code": "6C",
+      "display": "♣6",
+      "rank": "6",
+      "suit": "clubs"
+    },
+    {
+      "id": 20,
+      "code": "7D",
+      "display": "♦7",
+      "rank": "7",
+      "suit": "diamonds"
+    },
+    {
+      "id": 21,
+      "code": "7H",
+      "display": "♥7",
+      "rank": "7",
+      "suit": "hearts"
+    },
+    {
+      "id": 22,
+      "code": "7S",
+      "display": "♠7",
+      "rank": "7",
+      "suit": "spades"
+    },
+    {
+      "id": 23,
+      "code": "7C",
+      "display": "♣7",
+      "rank": "7",
+      "suit": "clubs"
+    },
+    {
+      "id": 24,
+      "code": "8D",
+      "display": "♦8",
+      "rank": "8",
+      "suit": "diamonds"
+    },
+    {
+      "id": 25,
+      "code": "8H",
+      "display": "♥8",
+      "rank": "8",
+      "suit": "hearts"
+    },
+    {
+      "id": 26,
+      "code": "8S",
+      "display": "♠8",
+      "rank": "8",
+      "suit": "spades"
+    },
+    {
+      "id": 27,
+      "code": "8C",
+      "display": "♣8",
+      "rank": "8",
+      "suit": "clubs"
+    },
+    {
+      "id": 28,
+      "code": "9D",
+      "display": "♦9",
+      "rank": "9",
+      "suit": "diamonds"
+    },
+    {
+      "id": 29,
+      "code": "9H",
+      "display": "♥9",
+      "rank": "9",
+      "suit": "hearts"
+    },
+    {
+      "id": 30,
+      "code": "9S",
+      "display": "♠9",
+      "rank": "9",
+      "suit": "spades"
+    },
+    {
+      "id": 31,
+      "code": "9C",
+      "display": "♣9",
+      "rank": "9",
+      "suit": "clubs"
+    },
+    {
+      "id": 32,
+      "code": "10D",
+      "display": "♦10",
+      "rank": "10",
+      "suit": "diamonds"
+    },
+    {
+      "id": 33,
+      "code": "10H",
+      "display": "♥10",
+      "rank": "10",
+      "suit": "hearts"
+    },
+    {
+      "id": 34,
+      "code": "10S",
+      "display": "♠10",
+      "rank": "10",
+      "suit": "spades"
+    },
+    {
+      "id": 35,
+      "code": "10C",
+      "display": "♣10",
+      "rank": "10",
+      "suit": "clubs"
+    },
+    {
+      "id": 36,
+      "code": "JD",
+      "display": "♦J",
+      "rank": "J",
+      "suit": "diamonds"
+    },
+    {
+      "id": 37,
+      "code": "JH",
+      "display": "♥J",
+      "rank": "J",
+      "suit": "hearts"
+    },
+    {
+      "id": 38,
+      "code": "JS",
+      "display": "♠J",
+      "rank": "J",
+      "suit": "spades"
+    },
+    {
+      "id": 39,
+      "code": "JC",
+      "display": "♣J",
+      "rank": "J",
+      "suit": "clubs"
+    },
+    {
+      "id": 40,
+      "code": "QD",
+      "display": "♦Q",
+      "rank": "Q",
+      "suit": "diamonds"
+    },
+    {
+      "id": 41,
+      "code": "QH",
+      "display": "♥Q",
+      "rank": "Q",
+      "suit": "hearts"
+    },
+    {
+      "id": 42,
+      "code": "QS",
+      "display": "♠Q",
+      "rank": "Q",
+      "suit": "spades"
+    },
+    {
+      "id": 43,
+      "code": "QC",
+      "display": "♣Q",
+      "rank": "Q",
+      "suit": "clubs"
+    },
+    {
+      "id": 44,
+      "code": "KD",
+      "display": "♦K",
+      "rank": "K",
+      "suit": "diamonds"
+    },
+    {
+      "id": 45,
+      "code": "KH",
+      "display": "♥K",
+      "rank": "K",
+      "suit": "hearts"
+    },
+    {
+      "id": 46,
+      "code": "KS",
+      "display": "♠K",
+      "rank": "K",
+      "suit": "spades"
+    },
+    {
+      "id": 47,
+      "code": "KC",
+      "display": "♣K",
+      "rank": "K",
+      "suit": "clubs"
+    },
+    {
+      "id": 48,
+      "code": "AD",
+      "display": "♦A",
+      "rank": "A",
+      "suit": "diamonds"
+    },
+    {
+      "id": 49,
+      "code": "AH",
+      "display": "♥A",
+      "rank": "A",
+      "suit": "hearts"
+    },
+    {
+      "id": 50,
+      "code": "AS",
+      "display": "♠A",
+      "rank": "A",
+      "suit": "spades"
+    },
+    {
+      "id": 51,
+      "code": "AC",
+      "display": "♣A",
+      "rank": "A",
+      "suit": "clubs"
+    }
+  ],
+  "source_id_to_code": {
+    "0": "10H",
+    "1": "10S",
+    "2": "10C",
+    "3": "2D",
+    "4": "2H",
+    "5": "2S",
+    "6": "2C",
+    "7": "3D",
+    "8": "3H",
+    "9": "3S",
+    "10": "3C",
+    "11": "4D",
+    "12": "4H",
+    "13": "4S",
+    "14": "4C",
+    "15": "5D",
+    "16": "5H",
+    "17": "5S",
+    "18": "5C",
+    "19": null,
+    "20": "10D",
+    "21": "6D",
+    "22": "6H",
+    "23": "6S",
+    "24": "6C",
+    "25": "7D",
+    "26": "7H",
+    "27": "7S",
+    "28": "7C",
+    "29": "8D",
+    "30": "8H",
+    "31": "8S",
+    "32": "8C",
+    "33": "9D",
+    "34": "9H",
+    "35": "9S",
+    "36": "9C",
+    "37": "AD",
+    "38": "AH",
+    "39": "AS",
+    "40": "AC",
+    "41": "JD",
+    "42": "JH",
+    "43": "JS",
+    "44": "JC",
+    "45": "KD",
+    "46": "KH",
+    "47": "KS",
+    "48": "KC",
+    "49": "QD",
+    "50": "QH",
+    "51": "QS",
+    "52": "QC"
+  },
+  "quarantined_source_ids": [
+    19
+  ],
+  "dataset": {
+    "name": "poker cards",
+    "project": "poker-cards-cxcvz",
+    "url": "https://universe.roboflow.com/object-detection/poker-cards-cxcvz",
+    "license": "CC BY 4.0"
+  }
+}

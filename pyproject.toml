@@ -1,0 +1,65 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "k210-poker-vision"
+version = "0.1.0"
+description = "YOLOv2 poker-card detection and K210 edge deployment"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+license = { text = "MIT" }
+dependencies = [
+    "numpy>=1.26",
+    "Pillow>=10.4",
+    "torch==2.14.0",
+    "onnx>=1.16",
+    "tqdm>=4.66",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=5.0",
+    "ruff>=0.6",
+    "onnxruntime>=1.20",
+]
+convert = [
+    "onnx2tf==1.28.8",
+    "tensorflow==2.21.0",
+    "tf-keras==2.21.0",
+]
+
+[project.scripts]
+poker-vision = "poker_vision.cli:main"
+
+[[tool.uv.index]]
+name = "pytorch-cu126"
+url = "https://mirror.sjtu.edu.cn/pytorch-wheels/cu126"
+explicit = true
+
+[tool.uv.sources]
+torch = [
+    { index = "pytorch-cu126", marker = "sys_platform == 'win32'" },
+]
+
+[tool.uv]
+environments = ["sys_platform == 'win32'", "sys_platform == 'linux'"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/poker_vision"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+extend-exclude = ["vendor", "artifacts", ".tmp", ".tools", "dist"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["poker_vision"]

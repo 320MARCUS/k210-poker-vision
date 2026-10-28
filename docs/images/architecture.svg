@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07131f"/>
+      <stop offset="1" stop-color="#13293d"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="80" y="92" fill="#f4f7fb" font-family="Segoe UI, Arial" font-size="48" font-weight="700">K210 Poker Vision</text>
+  <text x="80" y="134" fill="#8fb9d8" font-family="Segoe UI, Arial" font-size="24">auditable data → YOLOv2 → quantization → measured edge inference</text>
+
+  <g filter="url(#shadow)" font-family="Segoe UI, Arial">
+    <rect x="70" y="230" width="300" height="190" rx="24" fill="#153a52" stroke="#4ac6b7" stroke-width="3"/>
+    <text x="100" y="280" fill="#69e0d1" font-size="24" font-weight="700">1 · DATA CONTRACT</text>
+    <text x="100" y="324" fill="#eef5f8" font-size="21">1,285 images / 52 cards</text>
+    <text x="100" y="360" fill="#b9cbd7" font-size="18">visual ID audit</text>
+    <text x="100" y="390" fill="#b9cbd7" font-size="18">1 unresolved box quarantined</text>
+
+    <rect x="450" y="230" width="310" height="190" rx="24" fill="#17344a" stroke="#5da9e9" stroke-width="3"/>
+    <text x="480" y="280" fill="#77bdff" font-size="24" font-weight="700">2 · YOLOv2-TINY</text>
+    <text x="480" y="324" fill="#eef5f8" font-size="21">320 × 320 RGB</text>
+    <text x="480" y="360" fill="#b9cbd7" font-size="18">10 × 10 grid · 5 anchors</text>
+    <text x="480" y="390" fill="#b9cbd7" font-size="18">285-channel output</text>
+
+    <rect x="840" y="230" width="300" height="190" rx="24" fill="#17344a" stroke="#f0c75e" stroke-width="3"/>
+    <text x="870" y="280" fill="#ffd978" font-size="24" font-weight="700">3 · EVIDENCE</text>
+    <text x="870" y="324" fill="#eef5f8" font-size="21">validation chooses model</text>
+    <text x="870" y="360" fill="#b9cbd7" font-size="18">mAP50 · precision · recall</text>
+    <text x="870" y="390" fill="#b9cbd7" font-size="18">identity confidence sweep</text>
+
+    <rect x="1220" y="230" width="310" height="190" rx="24" fill="#153a52" stroke="#e8845d" stroke-width="3"/>
+    <text x="1250" y="280" fill="#ff9c75" font-size="24" font-weight="700">4 · DEPLOY</text>
+    <text x="1250" y="324" fill="#eef5f8" font-size="21">ONNX → nncase KModel</text>
+    <text x="1250" y="360" fill="#b9cbd7" font-size="18">MaixPy 0.6.x / KPU</text>
+    <text x="1250" y="390" fill="#b9cbd7" font-size="18">measured FPS + stability</text>
+  </g>
+
+  <g stroke="#6ba7c9" stroke-width="4" fill="none">
+    <path d="M370 325 H450"/>
+    <path d="M760 325 H840"/>
+    <path d="M1140 325 H1220"/>
+  </g>
+  <g fill="#6ba7c9">
+    <path d="M450 325 l-16 -10 v20 z"/>
+    <path d="M840 325 l-16 -10 v20 z"/>
+    <path d="M1220 325 l-16 -10 v20 z"/>
+  </g>
+
+  <g font-family="Segoe UI, Arial">
+    <rect x="70" y="540" width="1460" height="250" rx="28" fill="#0c2030" stroke="#2f536b" stroke-width="2"/>
+    <text x="105" y="590" fill="#f4f7fb" font-size="26" font-weight="700">Runtime contract</text>
+    <text x="105" y="642" fill="#b9cbd7" font-size="21">model: /sd/models/yolov2_k210.kmodel</text>
+    <text x="105" y="682" fill="#b9cbd7" font-size="21">input: 1 × 3 × 320 × 320    output: 1 × 285 × 10 × 10</text>
+    <text x="105" y="722" fill="#b9cbd7" font-size="21">score ≥ identity threshold → card code; otherwise → yellow “unknown”</text>
+    <rect x="1160" y="590" width="320" height="112" rx="20" fill="#123b34" stroke="#4ac6b7" stroke-width="2"/>
+    <text x="1190" y="630" fill="#69e0d1" font-size="19" font-weight="700">NO SILENT GUESSING</text>
+    <text x="1190" y="666" fill="#c9ddd9" font-size="17">every displayed metric is</text>
+    <text x="1190" y="690" fill="#c9ddd9" font-size="17">traceable to an artifact</text>
+  </g>
+</svg>

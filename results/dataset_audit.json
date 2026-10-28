@@ -1,0 +1,50 @@
+{
+  "dataset": {
+    "url": "https://universe.roboflow.com/object-detection/poker-cards-cxcvz",
+    "license": "CC BY 4.0"
+  },
+  "catalog_classes": 52,
+  "total_images": 1285,
+  "total_boxes": 5573,
+  "quarantined": [
+    {
+      "split": "train",
+      "image": "train\\images\\IMG_20220316_161439_jpg.rf.ba8ef4fc36c09410ead82d00abf1a76b.jpg",
+      "source_class_id": 19,
+      "reason": "unresolved one-off source annotation",
+      "box": [
+        0.5880208333333333,
+        0.24930555555555556,
+        0.334375,
+        0.3736111111111111
+      ]
+    }
+  ],
+  "duplicate_image_groups": 0,
+  "splits": {
+    "train": {
+      "images": 964,
+      "labels": 964,
+      "boxes": 4180,
+      "quarantined_boxes": 1,
+      "missing_labels": [],
+      "orphan_labels": []
+    },
+    "valid": {
+      "images": 193,
+      "labels": 193,
+      "boxes": 838,
+      "quarantined_boxes": 0,
+      "missing_labels": [],
+      "orphan_labels": []
+    },
+    "test": {
+      "images": 128,
+      "labels": 128,
+      "boxes": 555,
+      "quarantined_boxes": 0,
+      "missing_labels": [],
+      "orphan_labels": []
+    }
+  }
+}

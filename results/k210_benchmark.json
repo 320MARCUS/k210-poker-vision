@@ -1,0 +1,105 @@
+{
+  "status": "physical_smoke_and_live_display_observed_full_protocol_incomplete",
+  "board": "Sipeed Maix-Bit V2.0",
+  "firmware": {
+    "observed": "MaixPy 0.6.2",
+    "version": "v0.6.2-85-g23d09fbcc on 2023-06-05",
+    "machine": "Sipeed_M1 with kendryte-k210",
+    "firmware_flashed_during_this_work": false
+  },
+  "physical_admission": {
+    "usb_serial": {
+      "vid_pid": "VID_0403/PID_6010",
+      "seen_ports": [
+        "COM3",
+        "COM4"
+      ]
+    },
+    "repl_port": "COM3",
+    "sd_mounted": true,
+    "boot_main_backed_up": true
+  },
+  "model": {
+    "path": "/sd/models/yolov2_k210.kmodel",
+    "file": "k210-poker-live-160x120.kmodel",
+    "bytes": 2089896,
+    "sha256": "060163f63db6b4bb818a3c8483ca2f686f3e7e1331bef09b7567b79422fc3b6a",
+    "input_shape": [
+      1,
+      3,
+      120,
+      160
+    ],
+    "output_shape": [
+      1,
+      285,
+      7,
+      10
+    ],
+    "loaded_on_board": true,
+    "init_yolo2_passed": true,
+    "camera_initialized": true,
+    "lcd_displayed": true,
+    "detection_boxes_observed": true
+  },
+  "thresholds": {
+    "box": 0.25,
+    "identity": 0.2,
+    "nms": 0.45
+  },
+  "pipeline": "capture+kpu+yolo2+decode+nms+draw+lcd",
+  "ide_observation": {
+    "fps_range": [
+      10.4,
+      10.8
+    ],
+    "status": "informational_only",
+    "formal_benchmark": false
+  },
+  "benchmark": {
+    "protocol": "30 warm-up frames, 3 rounds x 100 complete-pipeline frames",
+    "rounds": [],
+    "median_fps": null,
+    "target_fps": 5.0,
+    "status": "not_completed"
+  },
+  "stability": {
+    "protocol_seconds": 300,
+    "status": "not_completed"
+  },
+  "holdout": {
+    "status": "not_completed",
+    "instances": 104,
+    "observed_failure": "nine of clubs was repeatedly misidentified in the live demonstration"
+  },
+  "serial_evidence": {
+    "sanitized_smoke_log": "results/k210-smoke-evidence.log",
+    "sanitized_smoke_log_sha256": "ee30c2ef52fae8a94cfcb8b8836a8bd711078ff5fe4cbf541e4b8644a471a9d0",
+    "private_original_raw_log_bytes": 1363,
+    "private_original_raw_log_sha256": "57bb5a5cda6fe30bee56f093d36f0b53f053a22459f095f43367428488d76e1a"
+  },
+  "media_evidence": {
+    "manifest": "results/media_manifest.json",
+    "hardware": "docs/images/k210-hardware.jpg",
+    "lcd_detection": "docs/images/k210-lcd-detection.jpg",
+    "video": "media/k210-demo.mp4",
+    "limitation": "The archived media clearly shows the LCD but not the PC screen content."
+  },
+  "prior_failures": [
+    {
+      "bytes": 11182248,
+      "sha256": "805af2b5d1ecb4e9a84f749d9b9490ee95e2297764710e0400392d4c6e93288f",
+      "error": "ERR_KMODEL_FORMAT"
+    },
+    {
+      "bytes": 5204904,
+      "sha256": "089fd7196b80ce80ec64cbdfd6618bc10d6b9ec6a2a66db8b85766b563ad0205",
+      "error": "ERR_NO_MEM"
+    },
+    {
+      "bytes": 3571624,
+      "error": "ERR_NO_MEM"
+    }
+  ],
+  "notes": "Physical smoke, camera, KPU, post-processing and LCD display passed. Formal benchmark, 300-second stability and the 104-instance holdout were not completed before project close."
+}

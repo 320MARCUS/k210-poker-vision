@@ -1,0 +1,10 @@
+{
+  "shape": [
+    285,
+    10,
+    10
+  ],
+  "max_abs_difference": 1.9015188217163086,
+  "mean_abs_difference": 0.11057639122009277,
+  "correlation": 0.9975645576969543
+}

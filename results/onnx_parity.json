@@ -1,0 +1,15 @@
+{
+  "samples": 100,
+  "raw_max_abs_difference": 3.24249267578125e-05,
+  "raw_mean_abs_difference": 1.545888602549894e-06,
+  "reference_detections": 553,
+  "candidate_detections": 553,
+  "matched_detections": 553,
+  "matched_fraction": 1.0,
+  "matched_class_agreement": 1.0,
+  "mean_matched_iou": 0.9999995095539722,
+  "box_iou_deviation": 4.904460277899148e-07,
+  "class_agreement_at_least_0_99": true,
+  "box_iou_deviation_at_most_0_01": true,
+  "threshold": 0.1
+}

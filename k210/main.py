@@ -1,0 +1,11 @@
+"""Minimal MaixPy bootloader; the application lives on the SD card."""
+
+# ruff: noqa: E402
+
+import sys
+
+sys.path.insert(0, "/sd/k210")
+
+import poker_app
+
+poker_app.main()

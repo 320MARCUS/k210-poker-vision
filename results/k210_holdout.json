@@ -1,0 +1,31 @@
+{
+  "status": "not_completed_project_closed",
+  "dataset": {
+    "scenes": 26,
+    "cards_per_scene": 4,
+    "instances": 104,
+    "occurrences_per_class": 2,
+    "schema": "configs/k210_holdout_scenes.json"
+  },
+  "thresholds": {
+    "box": 0.25,
+    "identity": 0.2,
+    "nms": 0.45,
+    "retuned_on_holdout": false
+  },
+  "metrics": {
+    "identity_accuracy": null,
+    "identity_coverage": null,
+    "box_coverage": null
+  },
+  "evidence": {
+    "completed_scenes": 0,
+    "images_with_sha256": 0,
+    "high_accuracy_claim_allowed": false
+  },
+  "observations": [
+    "A real five-card live scene showed a repeated nine-of-clubs identity failure.",
+    "Lowering identity threshold from 0.20 to 0.10 raised coverage to 0.885 but reduced identity accuracy to 0.442."
+  ],
+  "notes": "The project stopped before the formal 104-instance holdout. The live failure and threshold comparison are retained; they are not a substitute for holdout metrics."
+}

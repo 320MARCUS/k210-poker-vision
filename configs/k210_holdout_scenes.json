@@ -1,0 +1,278 @@
+{
+  "version": 1,
+  "purpose": "Fixed 26-scene real-card holdout; each class appears exactly twice.",
+  "camera_size": [
+    320,
+    320
+  ],
+  "slots": [
+    {
+      "id": "top_left",
+      "label": "TL",
+      "center": [
+        0.25,
+        0.25
+      ]
+    },
+    {
+      "id": "top_right",
+      "label": "TR",
+      "center": [
+        0.75,
+        0.25
+      ]
+    },
+    {
+      "id": "bottom_left",
+      "label": "BL",
+      "center": [
+        0.25,
+        0.58
+      ]
+    },
+    {
+      "id": "bottom_right",
+      "label": "BR",
+      "center": [
+        0.75,
+        0.58
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "cards": {
+        "top_left": "2D",
+        "top_right": "2H",
+        "bottom_left": "2S",
+        "bottom_right": "2C"
+      }
+    },
+    {
+      "id": 2,
+      "cards": {
+        "top_left": "3C",
+        "top_right": "3D",
+        "bottom_left": "3H",
+        "bottom_right": "3S"
+      }
+    },
+    {
+      "id": 3,
+      "cards": {
+        "top_left": "4S",
+        "top_right": "4C",
+        "bottom_left": "4D",
+        "bottom_right": "4H"
+      }
+    },
+    {
+      "id": 4,
+      "cards": {
+        "top_left": "5H",
+        "top_right": "5S",
+        "bottom_left": "5C",
+        "bottom_right": "5D"
+      }
+    },
+    {
+      "id": 5,
+      "cards": {
+        "top_left": "6D",
+        "top_right": "6H",
+        "bottom_left": "6S",
+        "bottom_right": "6C"
+      }
+    },
+    {
+      "id": 6,
+      "cards": {
+        "top_left": "7C",
+        "top_right": "7D",
+        "bottom_left": "7H",
+        "bottom_right": "7S"
+      }
+    },
+    {
+      "id": 7,
+      "cards": {
+        "top_left": "8S",
+        "top_right": "8C",
+        "bottom_left": "8D",
+        "bottom_right": "8H"
+      }
+    },
+    {
+      "id": 8,
+      "cards": {
+        "top_left": "9H",
+        "top_right": "9S",
+        "bottom_left": "9C",
+        "bottom_right": "9D"
+      }
+    },
+    {
+      "id": 9,
+      "cards": {
+        "top_left": "10D",
+        "top_right": "10H",
+        "bottom_left": "10S",
+        "bottom_right": "10C"
+      }
+    },
+    {
+      "id": 10,
+      "cards": {
+        "top_left": "JC",
+        "top_right": "JD",
+        "bottom_left": "JH",
+        "bottom_right": "JS"
+      }
+    },
+    {
+      "id": 11,
+      "cards": {
+        "top_left": "QS",
+        "top_right": "QC",
+        "bottom_left": "QD",
+        "bottom_right": "QH"
+      }
+    },
+    {
+      "id": 12,
+      "cards": {
+        "top_left": "KH",
+        "top_right": "KS",
+        "bottom_left": "KC",
+        "bottom_right": "KD"
+      }
+    },
+    {
+      "id": 13,
+      "cards": {
+        "top_left": "AD",
+        "top_right": "AH",
+        "bottom_left": "AS",
+        "bottom_right": "AC"
+      }
+    },
+    {
+      "id": 14,
+      "cards": {
+        "top_left": "3H",
+        "top_right": "2S",
+        "bottom_left": "2C",
+        "bottom_right": "3D"
+      }
+    },
+    {
+      "id": 15,
+      "cards": {
+        "top_left": "4D",
+        "top_right": "4H",
+        "bottom_left": "3S",
+        "bottom_right": "3C"
+      }
+    },
+    {
+      "id": 16,
+      "cards": {
+        "top_left": "4C",
+        "top_right": "5D",
+        "bottom_left": "5H",
+        "bottom_right": "4S"
+      }
+    },
+    {
+      "id": 17,
+      "cards": {
+        "top_left": "5S",
+        "top_right": "5C",
+        "bottom_left": "6D",
+        "bottom_right": "6H"
+      }
+    },
+    {
+      "id": 18,
+      "cards": {
+        "top_left": "7H",
+        "top_right": "6S",
+        "bottom_left": "6C",
+        "bottom_right": "7D"
+      }
+    },
+    {
+      "id": 19,
+      "cards": {
+        "top_left": "8D",
+        "top_right": "8H",
+        "bottom_left": "7S",
+        "bottom_right": "7C"
+      }
+    },
+    {
+      "id": 20,
+      "cards": {
+        "top_left": "8C",
+        "top_right": "9D",
+        "bottom_left": "9H",
+        "bottom_right": "8S"
+      }
+    },
+    {
+      "id": 21,
+      "cards": {
+        "top_left": "9S",
+        "top_right": "9C",
+        "bottom_left": "10D",
+        "bottom_right": "10H"
+      }
+    },
+    {
+      "id": 22,
+      "cards": {
+        "top_left": "JH",
+        "top_right": "10S",
+        "bottom_left": "10C",
+        "bottom_right": "JD"
+      }
+    },
+    {
+      "id": 23,
+      "cards": {
+        "top_left": "QD",
+        "top_right": "QH",
+        "bottom_left": "JS",
+        "bottom_right": "JC"
+      }
+    },
+    {
+      "id": 24,
+      "cards": {
+        "top_left": "QC",
+        "top_right": "KD",
+        "bottom_left": "KH",
+        "bottom_right": "QS"
+      }
+    },
+    {
+      "id": 25,
+      "cards": {
+        "top_left": "KS",
+        "top_right": "KC",
+        "bottom_left": "AD",
+        "bottom_right": "AH"
+      }
+    },
+    {
+      "id": 26,
+      "cards": {
+        "top_left": "2H",
+        "top_right": "AS",
+        "bottom_left": "AC",
+        "bottom_right": "2D"
+      }
+    }
+  ]
+}

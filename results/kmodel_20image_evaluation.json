@@ -1,0 +1,1104 @@
+{
+  "samples": 20,
+  "thresholds": {
+    "box": 0.25,
+    "identity": 0.2
+  },
+  "float": {
+    "mAP50": 0.8700556446643373,
+    "mAP50_95": 0.5529774611470519,
+    "precision": 0.7647058823529411,
+    "recall": 0.8125,
+    "identity_accuracy": 0.7808219178082192,
+    "matched_identity_boxes": 73,
+    "identity_coverage": 0.9125,
+    "ground_truth_boxes": 80,
+    "report_threshold": 0.25,
+    "per_class": [
+      {
+        "class_id": 0,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 1,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 2,
+        "ap50": 0.772277227722773,
+        "ground_truth": 10
+      },
+      {
+        "class_id": 3,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 4,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 5,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 6,
+        "ap50": 0.8829882988298825,
+        "ground_truth": 10
+      },
+      {
+        "class_id": 7,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 8,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 9,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 10,
+        "ap50": 0.8535282099638528,
+        "ground_truth": 10
+      },
+      {
+        "class_id": 11,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 12,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 13,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 14,
+        "ap50": 0.8937478363220934,
+        "ground_truth": 10
+      },
+      {
+        "class_id": 15,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 16,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 17,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 18,
+        "ap50": 0.829207920792079,
+        "ground_truth": 10
+      },
+      {
+        "class_id": 19,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 20,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 21,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 22,
+        "ap50": 0.8081683168316836,
+        "ground_truth": 10
+      },
+      {
+        "class_id": 23,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 24,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 25,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 26,
+        "ap50": 0.9295282469423432,
+        "ground_truth": 10
+      },
+      {
+        "class_id": 27,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 28,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 29,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 30,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 31,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 32,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 33,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 34,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 35,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 36,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 37,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 38,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 39,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 40,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 41,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 42,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 43,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 44,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 45,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 46,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 47,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 48,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 49,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 50,
+        "ap50": 0.9909990999099907,
+        "ground_truth": 10
+      },
+      {
+        "class_id": 51,
+        "ap50": null,
+        "ground_truth": 0
+      }
+    ],
+    "identity_operating_point": {
+      "mAP50": 0.8700556446643373,
+      "mAP50_95": 0.5529774611470519,
+      "precision": 0.717391304347826,
+      "recall": 0.825,
+      "identity_accuracy": 0.76,
+      "matched_identity_boxes": 75,
+      "identity_coverage": 0.9375,
+      "ground_truth_boxes": 80,
+      "report_threshold": 0.2,
+      "per_class": [
+        {
+          "class_id": 0,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 1,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 2,
+          "ap50": 0.772277227722773,
+          "ground_truth": 10
+        },
+        {
+          "class_id": 3,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 4,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 5,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 6,
+          "ap50": 0.8829882988298825,
+          "ground_truth": 10
+        },
+        {
+          "class_id": 7,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 8,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 9,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 10,
+          "ap50": 0.8535282099638528,
+          "ground_truth": 10
+        },
+        {
+          "class_id": 11,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 12,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 13,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 14,
+          "ap50": 0.8937478363220934,
+          "ground_truth": 10
+        },
+        {
+          "class_id": 15,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 16,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 17,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 18,
+          "ap50": 0.829207920792079,
+          "ground_truth": 10
+        },
+        {
+          "class_id": 19,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 20,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 21,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 22,
+          "ap50": 0.8081683168316836,
+          "ground_truth": 10
+        },
+        {
+          "class_id": 23,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 24,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 25,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 26,
+          "ap50": 0.9295282469423432,
+          "ground_truth": 10
+        },
+        {
+          "class_id": 27,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 28,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 29,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 30,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 31,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 32,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 33,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 34,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 35,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 36,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 37,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 38,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 39,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 40,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 41,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 42,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 43,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 44,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 45,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 46,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 47,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 48,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 49,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 50,
+          "ap50": 0.9909990999099907,
+          "ground_truth": 10
+        },
+        {
+          "class_id": 51,
+          "ap50": null,
+          "ground_truth": 0
+        }
+      ]
+    }
+  },
+  "kmodel_emulator": {
+    "mAP50": 0.8490873421431966,
+    "mAP50_95": 0.5444200899948451,
+    "precision": 0.7590361445783133,
+    "recall": 0.7875,
+    "identity_accuracy": 0.7945205479452054,
+    "matched_identity_boxes": 73,
+    "identity_coverage": 0.9125,
+    "ground_truth_boxes": 80,
+    "report_threshold": 0.25,
+    "per_class": [
+      {
+        "class_id": 0,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 1,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 2,
+        "ap50": 0.7566831683168314,
+        "ground_truth": 10
+      },
+      {
+        "class_id": 3,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 4,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 5,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 6,
+        "ap50": 0.8762376237623762,
+        "ground_truth": 10
+      },
+      {
+        "class_id": 7,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 8,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 9,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 10,
+        "ap50": 0.8492849284928484,
+        "ground_truth": 10
+      },
+      {
+        "class_id": 11,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 12,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 13,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 14,
+        "ap50": 0.8838703268320155,
+        "ground_truth": 10
+      },
+      {
+        "class_id": 15,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 16,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 17,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 18,
+        "ap50": 0.7333587204874333,
+        "ground_truth": 10
+      },
+      {
+        "class_id": 19,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 20,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 21,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 22,
+        "ap50": 0.789523595216665,
+        "ground_truth": 10
+      },
+      {
+        "class_id": 23,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 24,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 25,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 26,
+        "ap50": 0.9037403740374031,
+        "ground_truth": 10
+      },
+      {
+        "class_id": 27,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 28,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 29,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 30,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 31,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 32,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 33,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 34,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 35,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 36,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 37,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 38,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 39,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 40,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 41,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 42,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 43,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 44,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 45,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 46,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 47,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 48,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 49,
+        "ap50": null,
+        "ground_truth": 0
+      },
+      {
+        "class_id": 50,
+        "ap50": 1.0,
+        "ground_truth": 10
+      },
+      {
+        "class_id": 51,
+        "ap50": null,
+        "ground_truth": 0
+      }
+    ],
+    "identity_operating_point": {
+      "mAP50": 0.8490873421431966,
+      "mAP50_95": 0.5444200899948451,
+      "precision": 0.6847826086956522,
+      "recall": 0.7875,
+      "identity_accuracy": 0.7333333333333333,
+      "matched_identity_boxes": 75,
+      "identity_coverage": 0.9375,
+      "ground_truth_boxes": 80,
+      "report_threshold": 0.2,
+      "per_class": [
+        {
+          "class_id": 0,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 1,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 2,
+          "ap50": 0.7566831683168314,
+          "ground_truth": 10
+        },
+        {
+          "class_id": 3,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 4,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 5,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 6,
+          "ap50": 0.8762376237623762,
+          "ground_truth": 10
+        },
+        {
+          "class_id": 7,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 8,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 9,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 10,
+          "ap50": 0.8492849284928484,
+          "ground_truth": 10
+        },
+        {
+          "class_id": 11,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 12,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 13,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 14,
+          "ap50": 0.8838703268320155,
+          "ground_truth": 10
+        },
+        {
+          "class_id": 15,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 16,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 17,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 18,
+          "ap50": 0.7333587204874333,
+          "ground_truth": 10
+        },
+        {
+          "class_id": 19,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 20,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 21,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 22,
+          "ap50": 0.789523595216665,
+          "ground_truth": 10
+        },
+        {
+          "class_id": 23,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 24,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 25,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 26,
+          "ap50": 0.9037403740374031,
+          "ground_truth": 10
+        },
+        {
+          "class_id": 27,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 28,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 29,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 30,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 31,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 32,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 33,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 34,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 35,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 36,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 37,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 38,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 39,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 40,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 41,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 42,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 43,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 44,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 45,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 46,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 47,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 48,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 49,
+          "ap50": null,
+          "ground_truth": 0
+        },
+        {
+          "class_id": 50,
+          "ap50": 1.0,
+          "ground_truth": 10
+        },
+        {
+          "class_id": 51,
+          "ap50": null,
+          "ground_truth": 0
+        }
+      ]
+    }
+  },
+  "delta": {
+    "mAP50": -0.02096830252114068,
+    "mAP50_95": -0.008557371152206783,
+    "identity_accuracy": -0.026666666666666727
+  }
+}

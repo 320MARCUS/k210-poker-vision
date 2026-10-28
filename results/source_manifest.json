@@ -1,0 +1,22 @@
+{
+  "main.py": {
+    "bytes": 4509,
+    "sha256": "05dbe216e6e638f465f06a3919f91be727dc7db2c4cac6a85ea0b61a1e6188f0"
+  },
+  "扑克牌1285.zip": {
+    "bytes": 96982016,
+    "sha256": "fb4065701f52d351bf96bac8ea6ac2a74487e3e7d77c6cc28d3dd689f6eabbb7"
+  },
+  "yolov2-1.zip": {
+    "bytes": 495111876,
+    "sha256": "c726a5777420281c9d05048fcc02a6d0558071188d7a87a3d12feebc7aba99d0"
+  },
+  "yolov2_k210.zip": {
+    "bytes": 1000822,
+    "sha256": "0ab9181499f396d9e60572c39f1e491460d60b2b3730e84eeadb0a666038e507"
+  },
+  "yolov2.zip": {
+    "bytes": 82923253,
+    "sha256": "6a5a4cbdd47c45d95c0a908ba526cab74859737b531b0db820ff29f17b7128c5"
+  }
+}

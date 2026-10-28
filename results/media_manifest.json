@@ -1,0 +1,65 @@
+{
+    "status":  "reviewed-public-derivatives",
+    "privacy_review":  {
+                           "faces":  "none visible",
+                           "identity_documents":  "none visible",
+                           "screens_messages_or_qr_codes":  "none visible in selected frames",
+                           "audio":  "removed from public video",
+                           "metadata":  "stripped from public derivatives"
+                       },
+    "source_policy":  "Originals remain private and are identified by basename and SHA-256 only.",
+    "items":  [
+                  {
+                      "source":  "微信图片_20261028164517_196_25.jpg",
+                      "source_file":  {
+                                          "bytes":  3098422,
+                                          "sha256":  "7261a767fa4ddd647cfa751b34d5697d2cb88ec3fe41add07952ba491a22f2a7"
+                                      },
+                      "output":  "docs/images/k210-hardware.jpg",
+                      "output_file":  {
+                                          "bytes":  146257,
+                                          "sha256":  "2a9be8c2a62026c0c9ed979c4dd268c9167cecf98fb0d2c22492d8ffc3ed1774"
+                                      },
+                      "transform":  "scale to 1200x1600, strip metadata"
+                  },
+                  {
+                      "source":  "微信图片_20261028164527_202_25.jpg",
+                      "source_file":  {
+                                          "bytes":  3210806,
+                                          "sha256":  "51e36fa1485431affd000d8f5bafdee6ce01e017640ac0e6d116f6494dc4a665"
+                                      },
+                      "output":  "docs/images/k210-lcd-detection.jpg",
+                      "output_file":  {
+                                          "bytes":  167706,
+                                          "sha256":  "2e7843647d408fe9dd1e4c8838fc77947503efaf9f3e2e5e71d96083f8a6e609"
+                                      },
+                      "transform":  "scale to 1200x1600, strip metadata"
+                  },
+                  {
+                      "source":  "3b4390c309b64c847a855c289309e483.mp4",
+                      "source_file":  {
+                                          "bytes":  4062971,
+                                          "sha256":  "68b02a71df00ff2d15a028a07213b7abc84314ea70f1044e07441ed1f97539b6"
+                                      },
+                      "output":  "media/k210-demo.mp4",
+                      "output_file":  {
+                                          "bytes":  6047356,
+                                          "sha256":  "415d1a899c32e92197efddcf8e86040eab4812e1708fee6ded0b655fd32d1a95"
+                                      },
+                      "transform":  "trim 1s to 56s, remove audio and metadata, H.264 yuv420p"
+                  },
+                  {
+                      "source":  "3b4390c309b64c847a855c289309e483.mp4",
+                      "source_file":  {
+                                          "bytes":  4062971,
+                                          "sha256":  "68b02a71df00ff2d15a028a07213b7abc84314ea70f1044e07441ed1f97539b6"
+                                      },
+                      "output":  "media/k210-demo-poster.jpg",
+                      "output_file":  {
+                                          "bytes":  74188,
+                                          "sha256":  "fee795028d8d7ab3ca06a4e8f4441a74ca298c71565928720499da91612cc11a"
+                                      },
+                      "transform":  "frame at 12s, no synthetic boxes, strip metadata"
+                  }
+              ]
+}
