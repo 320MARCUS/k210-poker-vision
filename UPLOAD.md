@@ -1,6 +1,11 @@
 # GitHub 上传清单
 
-这个目录是公开候选。GitHub 建仓、可见性选择、push、tag 和 Release 均由本人操作。
+项目已发布：
+
+- 仓库：<https://github.com/320MARCUS/k210-poker-vision>
+- Release：<https://github.com/320MARCUS/k210-poker-vision/releases/tag/v1.0.0>
+
+本文件保留发布检查口径和后续版本更新流程。
 
 ## 仓库信息
 
@@ -25,20 +30,17 @@ start-dev.bat leak
 - 原始未脱敏照片、视频或音频；
 - token、账号、个人路径和聊天信息。
 
-## 上传顺序
+## 后续版本流程
 
 ```powershell
-git init -b main
 git add .
-git commit -m "release: finalize K210 poker vision project"
-git remote add origin <your-repository-url>
-git push -u origin main
-git tag -a v1.0.0 -m "K210 Poker Vision v1.0.0 closing release"
-git push origin v1.0.0
+git commit -m "<change summary>"
+git push origin main
 ```
 
-在 GitHub Release `v1.0.0` 中上传 `dist/release` 下除 `release_manifest.json` 外的
-全部资产，连同 `release_manifest.json` 一起保留也可。Release 标题建议：
+需要发布新版本时，重新构建 `dist/release`，核对 `SHA256SUMS.txt` 与
+`release_manifest.json`，再创建新 tag 和 Release。已发布的 `v1.0.0`
+继续保留原始模型、PC/SD 包和演示媒体。
 
 ```text
 K210 Poker Vision v1.0.0 - edge deployment and quantization review
